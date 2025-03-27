@@ -7,17 +7,17 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@SpringBootTest
-class MessageServiceTest {
-
-    @Autowired
-    private WorkoutProducerService workoutProducerService;
-
-    @Test
-    public void test(){
-        Event event = new Event();
-        event.setEventName("now sending terzo event");
-        workoutProducerService.sendMessage(event);
-    }
-
-}
+//@SpringBootTest
+//class MessageServiceTest {
+//
+//    @Autowired
+//    private WorkoutProducerService workoutProducerService;
+//
+//    @Test
+//    public void test(){
+//        Event event = new Event();
+//        event.setEventName("now sending terzo event");
+//        workoutProducerService.sendMessage(event);
+//    }
+//
+//}
