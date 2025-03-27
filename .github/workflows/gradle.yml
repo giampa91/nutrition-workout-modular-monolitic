@@ -73,7 +73,8 @@ jobs:
       with:
         gradle-version: '8.10'
 
+    - name: Grant execute permission to Gradle Wrapper
+      run: chmod +x base/gradlew
+
     - name: Generate and submit dependency graph
-      uses: gradle/actions/dependency-submission@v4
-      with:
-        gradle-build-root-directory: base  # Ensures dependency submission is run in the 'base' directory
+      run: ./base/gradlew -p base dependencySubmission  # Ensure the correct path for gradle wrapper
