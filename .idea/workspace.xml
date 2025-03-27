@@ -5,144 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b31602c1-52d5-4f22-9925-4454a272d467" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/base/gateway/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/user-service/src/main/java/com/nutrition/workout/userservice/DTOs/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/user-service/src/main/java/com/nutrition/workout/userservice/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/user-service/src/main/java/com/nutrition/workout/userservice/domain/CommonUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/user-service/src/main/java/com/nutrition/workout/userservice/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/user-service/src/main/java/com/nutrition/workout/userservice/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/user-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/user-service/src/test/java/com/nutrition/workout/userservice/UserServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/workout-execution-service/src/main/java/com/nutrition/workout/workoutexecutionservice/DTOs/ExerciseLogDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/workout-execution-service/src/main/java/com/nutrition/workout/workoutexecutionservice/DTOs/SessionLogDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/workout-execution-service/src/main/java/com/nutrition/workout/workoutexecutionservice/DTOs/WorkoutExecutionDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/workout-execution-service/src/main/java/com/nutrition/workout/workoutexecutionservice/WorkoutExecutionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/workout-execution-service/src/main/java/com/nutrition/workout/workoutexecutionservice/WorkoutExecutionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/workout-execution-service/src/main/java/com/nutrition/workout/workoutexecutionservice/domain/ExerciseLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/workout-execution-service/src/main/java/com/nutrition/workout/workoutexecutionservice/domain/SessionLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/workout-execution-service/src/main/java/com/nutrition/workout/workoutexecutionservice/domain/WorkoutExecution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/workout-execution-service/src/main/java/com/nutrition/workout/workoutexecutionservice/event/MessageDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/workout-execution-service/src/main/java/com/nutrition/workout/workoutexecutionservice/kafka/CustomDeserializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/workout-execution-service/src/main/java/com/nutrition/workout/workoutexecutionservice/kafka/KafkaConsumerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/workout-execution-service/src/main/java/com/nutrition/workout/workoutexecutionservice/kafka/WorkoutConsumerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/workout-execution-service/src/main/java/com/nutrition/workout/workoutexecutionservice/kafka/WorkoutDataDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/workout-service/src/main/java/com/nutrition/workout/workoutservice/DTOs/ExerciseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/workout-service/src/main/java/com/nutrition/workout/workoutservice/DTOs/SessionDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/workout-service/src/main/java/com/nutrition/workout/workoutservice/DTOs/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/workout-service/src/main/java/com/nutrition/workout/workoutservice/DTOs/WorkoutProgramDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/workout-service/src/main/java/com/nutrition/workout/workoutservice/WorkoutProgramController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/workout-service/src/main/java/com/nutrition/workout/workoutservice/domain/Exercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/workout-service/src/main/java/com/nutrition/workout/workoutservice/domain/Session.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/workout-service/src/main/java/com/nutrition/workout/workoutservice/domain/WorkoutProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/workout-service/src/main/java/com/nutrition/workout/workoutservice/event/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/workout-service/src/main/java/com/nutrition/workout/workoutservice/kafka/CustomSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/workout-service/src/main/java/com/nutrition/workout/workoutservice/kafka/KafkaProducerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/workout-service/src/main/java/com/nutrition/workout/workoutservice/kafka/WorkoutProducerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/workout-service/src/main/java/com/nutrition/workout/workoutservice/service/WorkoutProgramService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/java/com/nutrition/workout/eureka/EurekaServerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/test/java/com/nutrition/workout/eureka/EurekaServerApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/nutrition/workout/gateway/GatewayApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meal-tracking-service/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meal-tracking-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meal-tracking-service/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meal-tracking-service/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meal-tracking-service/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meal-tracking-service/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meal-tracking-service/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meal-tracking-service/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meal-tracking-service/src/main/java/com/nutrition/workout/mealtrackingservice/MealTrackingServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meal-tracking-service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meal-tracking-service/src/test/java/com/nutrition/workout/mealtrackingservice/MealTrackingServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/nutrition/workout/notificationservice/NotificationServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/src/test/java/com/nutrition/workout/notificationservice/NotificationServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/nutrition/workout/userservice/DTOs/UserDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/nutrition/workout/userservice/UserServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/nutrition/workout/userservice/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/nutrition/workout/userservice/domain/CommonUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/nutrition/workout/userservice/domain/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/nutrition/workout/userservice/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/test/java/com/nutrition/workout/userservice/UserServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-execution-service/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-execution-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-execution-service/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-execution-service/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-execution-service/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-execution-service/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-execution-service/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-execution-service/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-execution-service/src/main/java/com/nutrition/workout/workoutexecutionservice/DTOs/ExerciseLogDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-execution-service/src/main/java/com/nutrition/workout/workoutexecutionservice/DTOs/SessionLogDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-execution-service/src/main/java/com/nutrition/workout/workoutexecutionservice/DTOs/WorkoutExecutionDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-execution-service/src/main/java/com/nutrition/workout/workoutexecutionservice/WorkoutExecutionController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-execution-service/src/main/java/com/nutrition/workout/workoutexecutionservice/WorkoutExecutionService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-execution-service/src/main/java/com/nutrition/workout/workoutexecutionservice/WorkoutExecutionServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-execution-service/src/main/java/com/nutrition/workout/workoutexecutionservice/domain/ExerciseLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-execution-service/src/main/java/com/nutrition/workout/workoutexecutionservice/domain/SessionLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-execution-service/src/main/java/com/nutrition/workout/workoutexecutionservice/domain/WorkoutExecution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-execution-service/src/main/java/com/nutrition/workout/workoutexecutionservice/kafka/WorkoutConsumerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-execution-service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-execution-service/src/test/java/com/nutrition/workout/workoutexecutionservice/WorkoutExecutionDTOServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-service/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-service/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-service/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-service/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-service/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-service/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-service/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-service/src/main/java/com/nutrition/workout/workoutservice/DTOs/ExerciseDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-service/src/main/java/com/nutrition/workout/workoutservice/DTOs/SessionDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-service/src/main/java/com/nutrition/workout/workoutservice/DTOs/UserDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-service/src/main/java/com/nutrition/workout/workoutservice/DTOs/WorkoutProgramDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-service/src/main/java/com/nutrition/workout/workoutservice/WorkoutProgramController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-service/src/main/java/com/nutrition/workout/workoutservice/WorkoutServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-service/src/main/java/com/nutrition/workout/workoutservice/domain/Exercise.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-service/src/main/java/com/nutrition/workout/workoutservice/domain/Session.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-service/src/main/java/com/nutrition/workout/workoutservice/domain/WorkoutProgram.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-service/src/main/java/com/nutrition/workout/workoutservice/kafka/KafkaProducerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-service/src/main/java/com/nutrition/workout/workoutservice/kafka/MessageService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-service/src/main/java/com/nutrition/workout/workoutservice/kafka/WorkoutProducerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-service/src/main/java/com/nutrition/workout/workoutservice/service/WorkoutProgramService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-service/src/test/java/com/nutrition/workout/workoutservice/WorkoutServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout-service/src/test/java/com/nutrition/workout/workoutservice/kafka/MessageServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,8 +69,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Giampaolo/git/nutrition-workout-modular-monolitic"
+    "last_opened_file_path": "C:/Users/Giampaolo/git/nutrition-workout-modular-monolitic/base"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -319,17 +183,6 @@
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="nutrition-workout-modular-monolitic" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="nutrition-workout-modular-monolitic" />
-      <option name="filePath" />
       <method v="2" />
     </configuration>
     <recent_temporary>
