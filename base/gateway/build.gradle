@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.nutrition.workout'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation project(':app')
+//    implementation 'org.springframework.cloud:spring-cloud-starter-gateway:4.2.0'
+}
+
+test {
+    useJUnitPlatform()
+}
